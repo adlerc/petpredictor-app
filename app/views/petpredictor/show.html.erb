@@ -1,0 +1,17 @@
+<header>
+  <h1><%= @message %></h1>
+</header>
+
+<div id="form">
+
+  <form id="predictorform" method="post" action="/petpredictor">
+    <label for="yesno">Am I Correct?</label>
+    <input id="height" type="hidden" name="height" value="<%=@json['height']%>">
+    <input id="weight" type="hidden" name="weight" value="<%=@json['weight']%>">
+    <input id="dog_count" type="hidden" name="dog_count" value="<%=@json['dog_count']%>">
+    <input id="cat_count" type="hidden" name="cat_count" value="<%=@json['cat_count']%>">
+    <input id="correct" type="hidden" name="correct" value="true">
+    <input id="agree_button" type="submit" value="Yes indeed" />
+    <input id="disagree_button" type="button" value="Not even close" />
+  </form>
+</div>

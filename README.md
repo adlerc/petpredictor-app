@@ -32,4 +32,4 @@ The web application prompts the user for his/her height and weight then guesses 
 
   * Using your favorite browser goto `http://localhost:3000/petpredictor`
 
-  * See whether it knows if you are a DOG or CAT person.  Enjoy!
+  * Enter your height and weight and see whether it knows if you are a DOG or CAT person.  Enjoy!
